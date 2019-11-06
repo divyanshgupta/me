@@ -2,13 +2,14 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dbarochiya.github.io/me",
+  "homepage": "https://imdivyansh.github.io/me",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
+    "react-waypoint": "^9.0.2",
     "travis": "^0.1.1",
     "yarn": "^1.13.0"
   },

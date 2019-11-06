@@ -2,54 +2,42 @@
     "main": {
       "name":"Divyansh Gupta",
       "occupation":"CREATIVE WEB DEVELOPER",
-      "description":"I stand on a sweet spot where design and code intersects. I specialise in front end javascript and its related technologies like Reactjs,Angularjs etc.",
+      "company":"ION Trading Pvt Ltd",
       "emphasised":"I'm avaliable for freelance work and projects.",
       "profileimage":"aboutimage.png",
       "backgroundimage1":"bgimg.jpg",
-      "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-      "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+      "backgroundimage2":"bgimg2.jpg",
+      "backgroundimage3":"bgimg3.jpg",
       "email": "divyansh.2392@gmail.com",
+      "course":"B.TECH in IT",
+      "college":"USICT GGSIPU",
       "phone": "9899233233",
       "address":{
         "city":"Delhi"
       },
+      "description":"I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)",
       "website": "http://www.timbakerdev.com",
       "resumedownload":"http://timbakerdev.com",
       "social":[
         {
           "name":"facebook",
-          "url":"http://facebook.com/tim.baker.906",
-          "className":"fa fa-facebook"
+          "url":"https://www.facebook.com/imdivyansh",
+          "className":"icon-facebook2"
         },
         {
           "name":"twitter",
-          "url":"http://twitter.com",
-          "className":"fa fa-twitter"
-        },
-        {
-          "name":"google-plus",
-          "url":"http://googleplus.com/tbakerx",
-          "className":"fa fa-google-plus"
+          "url":"https://twitter.com/iamdivyansh",
+          "className":"icon-twitter2"
         },
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"instagram",
-          "url":"http://instagram.com/tbaker_x",
-          "className":"fa fa-instagram"
+          "url":"https://www.linkedin.com/in/divyansh-gupta-0750984a/",
+          "className":"icon-linkedin2"
         },
         {
           "name":"github",
-          "url":"http://github.com/tbakerx",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://skype.com",
-          "className":"fa fa-skype"
+          "url":"https://github.com/divyanshgupta",
+          "className":"icon-github"
         }
       ]
     },
@@ -159,6 +147,30 @@
           "user":"Steve Wozniak... impersonator"
         }
       ]
-    }
+    },
+    "timeline":[
+      {
+        "name":"ION Trading Pvt. Ltd",
+        "period":"July 2018-Present",
+        "description":"Developing Front End for Trading Application",
+        "icon":"ion.png",
+        "animationEffect":"fadeInLeft",
+        "companyUrl":"www.iongroup.com"
+      },
+      {
+        "name":"Times of India",
+        "period":"July 2016-July 2018",
+        "description":"July 2016 - July 2018",
+        "icon":"toi.png",
+        "animationEffect":"fadeInTop"
+      },
+      {
+        "name":"Compro Technologies",
+        "period":"July 2014 - July 2016",
+        "description":"",
+        "icon":"compro.png",
+        "animationEffect":"fadeInLeft"
+      }
+    ]
   }
   

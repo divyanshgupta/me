@@ -1,6 +1,6 @@
 {
-  "short_name": "Portfolio app",
-  "name": "Portfolio app made with react as part of 'weekend projects' initiative",
+  "short_name": "divyansh gupta profile",
+  "name": "Divyansh Profile",
   "icons": [
     {
       "src": "favicon.ico",
@@ -11,5 +11,21 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "dependencies": {
+		"gh-pages": "^2.0.1",
+		"react": "^16.8.3",
+		"react-dom": "^16.8.3",
+		"react-scripts": "2.1.5",
+		"yarn": "^1.13.0"},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"},
+	"eslintConfig": {
+		"extends": "react-app"}
+
 }

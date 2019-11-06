@@ -44,7 +44,7 @@ class App extends Component {
 				<div id="colorlib-main">
 					<Introduction data={this.state.resumeData.main}></Introduction>
 					<About data={this.state.resumeData.main}></About>
-					<Timeline data={this.state.resumeData.main}></Timeline>
+					<Timeline data={this.state.resumeData.timeline}></Timeline>
           	</div>
       	</div>
       </div>

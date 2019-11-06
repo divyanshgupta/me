@@ -8,6 +8,10 @@ export default class Sidebar extends Component {
       var name = this.props.data.name;
       var email = this.props.data.email;
       var image = "url(images/"+this.props.data.profileimage+")"
+      var networks = this.props.data.social.map((network)=>
+      {
+        return <li><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></li>
+      })
     }
 
 
@@ -34,11 +38,7 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li><a href="https://www.facebook.com/imdivyansh" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
-                <li><a href="https://twitter.com/iamdivyansh" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
-                <li><a href="https://www.linkedin.com/in/divyansh-gupta-0750984a/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                <li><a href="https://github.com/divyanshgupta" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-               
+              {networks}
               </ul>
             </nav>
       

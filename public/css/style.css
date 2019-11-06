@@ -1429,3 +1429,15 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+  .company-logo
+  {
+    width:100%;
+    height:100%
+  }
+  .sqLogoLink
+  {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    margin-bottom:10px;
+  }
