@@ -4,29 +4,32 @@ import Sidebar from './components/sidebar'
 import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
+import Technology from './components/technologies'
 import $ from 'jquery';
-class App extends Component {
+class App extends Component
+{
 
-  constructor(props){
+  constructor(props)
+  {
     super(props);
 
-    this.state = 
-    {
-      resumeData:{}
-    }
+    this.state =
+      {
+        resumeData: {}
+      }
   }
 
   getResumeData()
   {
     $.ajax({
-      url:'./portFolioData.json',
+      url: './portFolioData.json',
       dataType: 'json',
-      cache:false,
-      success : function(data)
+      cache: false,
+      success: function (data)
       {
-        this.setState({resumeData:data})
+        this.setState({ resumeData: data })
       }.bind(this),
-      error:function(xhr,status,err)
+      error: function (xhr, status, err)
       {
 
       }
@@ -36,17 +39,19 @@ class App extends Component {
   {
     this.getResumeData()
   }
-  render() {
+  render()
+  {
     return (
       <div id="colorlib-page">
         <div id="container-wrap">
-         	<Sidebar data={this.state.resumeData.main}></Sidebar>
-				<div id="colorlib-main">
-					<Introduction data={this.state.resumeData.main}></Introduction>
-					<About data={this.state.resumeData.main}></About>
-					<Timeline data={this.state.resumeData.timeline}></Timeline>
-          	</div>
-      	</div>
+          <Sidebar data={this.state.resumeData.main}></Sidebar>
+          <div id="colorlib-main">
+            <Introduction data={this.state.resumeData.main}></Introduction>
+            <About data={this.state.resumeData.main}></About>
+            <Timeline data={this.state.resumeData.timeline}></Timeline>
+            <Technology data={this.state.resumeData.technologies}></Technology>
+          </div>
+        </div>
       </div>
     );
   }
